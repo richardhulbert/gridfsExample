@@ -1,0 +1,14 @@
+<template name="home">
+  <h1>Welcome to Grid FS</h1>
+    <input type="file" name="fileup" class="myFileInput" />
+
+    <div class="imageView">
+        {{#each images}}
+            <div class="imageContainer">
+                <a href="{{this.url}}" target="_blank"><img src="{{this.url }}" alt="" class="thumbnail" /></a>
+                <div>{{this.original.name}}</div>
+                <button class="btn btn-danger deleteImage">delete</button>
+            </div>
+        {{/each}}
+    </div>
+</template>

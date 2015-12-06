@@ -1,0 +1,8 @@
+.imageView .imageContainer {
+  display: inline-block;
+  width: 20%;
+}
+.imageView .imageContainer img {
+  width: 100%;
+  vertical-align: top;
+}
