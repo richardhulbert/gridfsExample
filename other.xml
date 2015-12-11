@@ -1,0 +1,20 @@
+<application>
+  <component name="CodeStyleSchemes">
+    <option name="CURRENT_SCHEME_NAME" value="Default" />
+  </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="/usr/local/bin/node" version="0.10.26" last-modified="1392767259000" />
+    <node-interpreter path="/usr/bin/node" version="0.10.26" last-modified="1392767259000" />
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Meteor Template" />
+          </list>
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+</application>
