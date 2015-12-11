@@ -20,11 +20,11 @@ Template.home.events({
     });
 },
     'click .deleteImage':function(event,template){
-        Images.remove( this._id);
+        if(confirm('delete this image')) Images.remove( this._id);
 
     }
 
-})
+});
 
 Template.home.helpers({
     images: function () {
