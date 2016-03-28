@@ -15,4 +15,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/bin/node" />
+  </component>
 </application>
