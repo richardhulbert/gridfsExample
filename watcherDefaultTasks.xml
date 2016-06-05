@@ -8,13 +8,13 @@
       <option name="fileExtension" value="less" />
       <option name="immediateSync" value="true" />
       <option name="name" value="Less" />
-      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="output" value="../$FileNameWithoutExtension$.css" />
       <option name="outputFilters">
         <array>
           <FilterInfo>
             <option name="description" value="lessc error format" />
             <option name="name" value="lessc" />
-            <option name="regExp" value="$MESSAGE$$FILE_PATH$?:$LINE$:$COLUMN$" />
+            <option name="regExp" value="$MESSAGE$\Q in \E$FILE_PATH$\Q on line \E$LINE$\Q, column \E$COLUMN$" />
           </FilterInfo>
         </array>
       </option>
