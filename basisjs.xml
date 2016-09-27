@@ -1,0 +1,5 @@
+<application>
+  <component name="BasisJSInspector">
+    <option name="urlPostfix" value="/basisjs-tools/devtool/" />
+  </component>
+</application>
