@@ -1,5 +1,19 @@
 <application>
   <component name="libraryTable">
+    <library name="jasmine" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="node_modules" />
+        <sourceFilesUrls>
+          <item url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-jquery/lib/jasmine-jquery.js" />
+          <item url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-core/lib/jasmine-core.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-jquery/lib/jasmine-jquery.js" />
+        <root url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-core/lib/jasmine-core.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="node-DefinitelyTyped" type="javaScript">
       <properties>
         <sourceFilesUrls>
