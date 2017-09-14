@@ -3,14 +3,21 @@
     <library name="jasmine" type="javaScript">
       <properties>
         <option name="frameworkName" value="node_modules" />
-        <sourceFilesUrls>
-          <item url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-jquery/lib/jasmine-jquery.js" />
-          <item url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-core/lib/jasmine-core.js" />
-        </sourceFilesUrls>
       </properties>
       <CLASSES>
         <root url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-jquery/lib/jasmine-jquery.js" />
         <root url="file://$USER_HOME$/WebstormProjects/utile/node_modules/jasmine-core/lib/jasmine-core.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="jasmine-ajax-DefinitelyTyped" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_jasmine-ajax_index.d.ts" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_github.com_DefinitelyTyped_DefinitelyTyped_raw_master_types_jasmine-ajax_index.d.ts" />
       </CLASSES>
       <SOURCES />
     </library>
