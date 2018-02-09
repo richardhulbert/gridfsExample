@@ -1,0 +1,5 @@
+<application>
+  <component name="NodeJSRemoteInterpreters">
+    <interpreter node-remote-interpreter="vagrant:///Users/richard/WebstormProjects/node-lambda-wavefrom-generator/home/vagrant/.nvm/versions/node/v6.11.5/bin/node" VAGRANT_FOLDER="$USER_HOME$/WebstormProjects/node-lambda-wavefrom-generator" INTERPRETER_PATH="/home/vagrant/.nvm/versions/node/v6.11.5/bin/node" HELPERS_PATH="/home/vagrant/.webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" VERSION="6.11.5" />
+  </component>
+</application>
