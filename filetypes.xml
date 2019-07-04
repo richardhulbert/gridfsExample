@@ -7,7 +7,6 @@
       <mapping pattern="versions" type="PLAIN_TEXT" />
       <mapping ext="template" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
-      <mapping ext="ini" type="PLAIN_TEXT" />
       <mapping pattern="_elements" type="SCSS" />
     </extensionMap>
   </component>
