@@ -1,0 +1,8 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-18-202-175-146.eu-west-1.compute.amazonaws.com" id="c6d259bf-10fe-4c97-9ce1-9d4b110d4288" keyPath="$USER_HOME$/.ssh/unity_staging" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
+      <sshConfig host="ec2-34-245-47-42.eu-west-1.compute.amazonaws.com" id="5abbdf0c-f594-4fc3-8ef6-b340af7b7247" keyPath="$USER_HOME$/.ssh/unity_production.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" />
+    </configs>
+  </component>
+</application>
