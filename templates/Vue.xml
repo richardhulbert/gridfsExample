@@ -1,6 +1,15 @@
 <templateSet group="Vue">
-  <template name="bformg" value="&lt;b-form-group&#10;                    id=&quot;$name$-group&quot;&#10;                    label=&quot;$name$&quot;&#10;                    label-for=&quot;$name$&quot;&#10;                    :invalid-feedback=&quot;errors.get('$name$')&quot;&#10;                    :state=&quot;errors.has('$name$')?false:null&quot;&#10;            &gt;&#10;                &lt;b-form-input type=&quot;text&quot; id=&quot;$name$&quot; v-model=&quot;form.$name$&quot; name=&quot;$name$&quot; :state=&quot;errors.has('$name$')?false:null&quot;&#10;                              trim autocomplete=&quot;$name$&quot;&gt;&lt;/b-form-input&gt;&#10;            &lt;/b-form-group&gt;" shortcut="SPACE" description="b-form group with attributes" toReformat="true" toShortenFQNames="true">
+  <template name="bformg" value="&lt;b-form-group&#10;                    id=&quot;$name$-group&quot;&#10;                    label=&quot;$name$&quot;&#10;                    label-for=&quot;$name$&quot;&#10;                    :invalid-feedback=&quot;errors.get('$name$')&quot;&#10;                    :state=&quot;errors.has('$name$')?false:null&quot;&#10;            &gt;&#10;                &lt;b-form-input type=&quot;$type$&quot; id=&quot;$name$&quot; v-model=&quot;form.$name$&quot; name=&quot;$name$&quot; :state=&quot;errors.has('$name$')?false:null&quot;&#10;                              trim autocomplete=&quot;$name$&quot;&gt;&lt;/b-form-input&gt;&#10;            &lt;/b-form-group&gt;" shortcut="SPACE" description="b-form group with attributes" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="completeSmart()" defaultValue="text" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="VUE_TEMPLATE" value="true" />
+    </context>
+  </template>
+  <template name="vformp" value="&lt;b-card class=&quot;page&quot;&gt;&#10;  &lt;b-card-title&gt;$title$&lt;/b-card-title&gt;&#10;  &lt;b-card-body&gt;&#10;    &lt;b-form @submit.prevent=&quot;callback&quot; @reset=&quot;form.reset()&quot; @keyup=&quot;errors.clear($event.target)&quot;&gt;&#10;     &#10;    &lt;/b-form&gt;&#10;    &lt;b-alert :show=&quot;showGeneralError&quot; variant=&quot;danger&quot; &gt;{{generalErrorMessage}}&lt;/b-alert&gt;&#10;    &lt;b-button class=&quot;float-right&quot; type=&quot;submit&quot;&gt;$action_text$&lt;/b-button&gt;&#10;    &lt;b-button variant=&quot;primary&quot; @click=&quot;back&quot;&gt;Back&lt;/b-button&gt;&#10;  &lt;/b-card-body&gt;&#10;&lt;/b-card&gt;" description="page (card) with form" toReformat="true" toShortenFQNames="true">
+    <variable name="title" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="action_text" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="VUE_TEMPLATE" value="true" />
