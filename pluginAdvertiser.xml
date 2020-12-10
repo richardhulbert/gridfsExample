@@ -1619,6 +1619,26 @@
                       <FeaturePluginData displayName="Compound" pluginName="IDEA CORE" pluginId="com.intellij" />
                     </value>
                   </entry>
+                  <entry key="ErlangApplicationRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Application" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangConsoleRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Console" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangRemoteDebugRunConfiguration">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Remote Node" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="ErlangUnitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Eunit" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
                   <entry key="FirefoxRemoteDebugType">
                     <value>
                       <FeaturePluginData displayName="Firefox Remote" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
@@ -1682,6 +1702,16 @@
                   <entry key="ReactNative">
                     <value>
                       <FeaturePluginData displayName="React Native" pluginName="JavaScript Debugger" pluginId="JavaScriptDebugger" />
+                    </value>
+                  </entry>
+                  <entry key="RebarEunitRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Rebar Eunit" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
+                    </value>
+                  </entry>
+                  <entry key="RebarRunConfigurationType">
+                    <value>
+                      <FeaturePluginData displayName="Erlang Rebar" pluginName="Erlang" pluginId="org.jetbrains.erlang" />
                     </value>
                   </entry>
                   <entry key="ShConfigurationType">
